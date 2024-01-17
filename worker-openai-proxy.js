@@ -1,4 +1,4 @@
-const OPENAI_URL = 'https://api.openai.com';
+const OPENAI_URL = 'https://generativelanguage.googleapis.com';
 
 addEventListener('fetch', event => {
   event.respondWith(handleRequest(event.request));
